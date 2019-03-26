@@ -1,0 +1,89 @@
+.navigation-li{
+	display: inline-block;
+}
+.header{
+	position: fixed;
+	background: green;
+	width: 100%;
+	top:0;
+	left: 0;
+	height: 50px;
+	z-index: 20;
+
+}
+body{
+	padding-top:50px;
+}
+.container{
+	width: 600px;
+	height: 600px;
+	background: red;
+	margin-top:20px;
+	position: relative;
+}
+.box{
+	width: 300px;
+	height: 300px;
+	background: blue;
+	position: absolute;
+	top: 0;
+	left: 0%;
+	z-index: 16;
+}
+.box2{
+	width: 300px;
+	height: 300px;
+	background: aqua;
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	z-index: 30;
+}
+.box3{
+	width: 200px;
+	height: 200px;
+	background: yellow;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 35;
+}
+.teksti{
+	position: absolute;
+	left:20px;
+	bottom: 20px;
+	font-size: 40px;
+	color: #fff;
+}
+.wraper{
+	position: relative;
+}
+.container1{
+	width: 1170px;
+	margin:0 auto;
+}
+.test{
+	background: #E6E6E6;
+}
+.images{
+	display: inline-block;
+}
+.images img{
+	display: block;
+}
+.bg{
+	/*background-image: url(../img/img.jpg);*/
+	background-image: url(https://helpx.adobe.com/ie/stock/how-to/visual-reverse-image-search/_jcr_content/main-pars/image.img.jpg/visual-reverse-image-search-v2_1000x560.jpg);
+	width: 1170px;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: left top;
+	position: relative;
+}
+.example{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	font-size: 30px;
+}
